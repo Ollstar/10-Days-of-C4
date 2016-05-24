@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74603C11CEA78140067C52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603C01CEA78140067C52D /* AppDelegate.swift */; };
+		A74603C31CEA78140067C52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603C21CEA78140067C52D /* ViewController.swift */; };
+		A74603C61CEA78140067C52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74603C41CEA78140067C52D /* Main.storyboard */; };
+		A74603C81CEA78140067C52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74603C71CEA78140067C52D /* Assets.xcassets */; };
+		A74603CB1CEA78140067C52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74603C91CEA78140067C52D /* LaunchScreen.storyboard */; };
+		A74603D61CEA78140067C52D /* C4EmojiSlotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603D51CEA78140067C52D /* C4EmojiSlotsTests.swift */; };
+		A74603E11CEA78140067C52D /* C4EmojiSlotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603E01CEA78140067C52D /* C4EmojiSlotsUITests.swift */; };
+		A7B39D991CF3D224005F010B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D941CF3D21F005F010B /* C4.framework */; };
+		A7B39D9A1CF3D224005F010B /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D941CF3D21F005F010B /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74603D21CEA78140067C52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74603B51CEA78140067C52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74603BC1CEA78140067C52D;
+			remoteInfo = C4EmojiSlots;
+		};
+		A74603DD1CEA78140067C52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74603B51CEA78140067C52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74603BC1CEA78140067C52D;
+			remoteInfo = C4EmojiSlots;
+		};
+		A7B39D931CF3D21F005F010B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+		A7B39D951CF3D21F005F010B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
+			remoteInfo = C4Tests;
+		};
+		A7B39D971CF3D21F005F010B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
+			remoteInfo = C4App;
+		};
+		A7B39D9B1CF3D224005F010B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A74603FE1CEA7C210067C52D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7B39D9A1CF3D224005F010B /* C4.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A74603BD1CEA78140067C52D /* C4EmojiSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4EmojiSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74603C01CEA78140067C52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74603C21CEA78140067C52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74603C51CEA78140067C52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74603C71CEA78140067C52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74603CA1CEA78140067C52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74603CC1CEA78140067C52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74603D11CEA78140067C52D /* C4EmojiSlotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C4EmojiSlotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74603D51CEA78140067C52D /* C4EmojiSlotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4EmojiSlotsTests.swift; sourceTree = "<group>"; };
+		A74603D71CEA78140067C52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74603DC1CEA78140067C52D /* C4EmojiSlotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C4EmojiSlotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74603E01CEA78140067C52D /* C4EmojiSlotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4EmojiSlotsUITests.swift; sourceTree = "<group>"; };
+		A74603E21CEA78140067C52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74603BA1CEA78140067C52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B39D991CF3D224005F010B /* C4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603CE1CEA78140067C52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603D91CEA78140067C52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74603B41CEA78140067C52D = {
+			isa = PBXGroup;
+			children = (
+				A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */,
+				A74603BF1CEA78140067C52D /* C4EmojiSlots */,
+				A74603D41CEA78140067C52D /* C4EmojiSlotsTests */,
+				A74603DF1CEA78140067C52D /* C4EmojiSlotsUITests */,
+				A74603BE1CEA78140067C52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74603BE1CEA78140067C52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74603BD1CEA78140067C52D /* C4EmojiSlots.app */,
+				A74603D11CEA78140067C52D /* C4EmojiSlotsTests.xctest */,
+				A74603DC1CEA78140067C52D /* C4EmojiSlotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74603BF1CEA78140067C52D /* C4EmojiSlots */ = {
+			isa = PBXGroup;
+			children = (
+				A74603C01CEA78140067C52D /* AppDelegate.swift */,
+				A74603C21CEA78140067C52D /* ViewController.swift */,
+				A74603C41CEA78140067C52D /* Main.storyboard */,
+				A74603C71CEA78140067C52D /* Assets.xcassets */,
+				A74603C91CEA78140067C52D /* LaunchScreen.storyboard */,
+				A74603CC1CEA78140067C52D /* Info.plist */,
+			);
+			path = C4EmojiSlots;
+			sourceTree = "<group>";
+		};
+		A74603D41CEA78140067C52D /* C4EmojiSlotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74603D51CEA78140067C52D /* C4EmojiSlotsTests.swift */,
+				A74603D71CEA78140067C52D /* Info.plist */,
+			);
+			path = C4EmojiSlotsTests;
+			sourceTree = "<group>";
+		};
+		A74603DF1CEA78140067C52D /* C4EmojiSlotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74603E01CEA78140067C52D /* C4EmojiSlotsUITests.swift */,
+				A74603E21CEA78140067C52D /* Info.plist */,
+			);
+			path = C4EmojiSlotsUITests;
+			sourceTree = "<group>";
+		};
+		A7B39D8E1CF3D21F005F010B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B39D941CF3D21F005F010B /* C4.framework */,
+				A7B39D961CF3D21F005F010B /* C4Tests.xctest */,
+				A7B39D981CF3D21F005F010B /* C4App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74603BC1CEA78140067C52D /* C4EmojiSlots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74603E51CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlots" */;
+			buildPhases = (
+				A74603B91CEA78140067C52D /* Sources */,
+				A74603BA1CEA78140067C52D /* Frameworks */,
+				A74603BB1CEA78140067C52D /* Resources */,
+				A74603FE1CEA7C210067C52D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B39D9C1CF3D224005F010B /* PBXTargetDependency */,
+			);
+			name = C4EmojiSlots;
+			productName = C4EmojiSlots;
+			productReference = A74603BD1CEA78140067C52D /* C4EmojiSlots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74603D01CEA78140067C52D /* C4EmojiSlotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74603E81CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlotsTests" */;
+			buildPhases = (
+				A74603CD1CEA78140067C52D /* Sources */,
+				A74603CE1CEA78140067C52D /* Frameworks */,
+				A74603CF1CEA78140067C52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74603D31CEA78140067C52D /* PBXTargetDependency */,
+			);
+			name = C4EmojiSlotsTests;
+			productName = C4EmojiSlotsTests;
+			productReference = A74603D11CEA78140067C52D /* C4EmojiSlotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74603DB1CEA78140067C52D /* C4EmojiSlotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74603EB1CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlotsUITests" */;
+			buildPhases = (
+				A74603D81CEA78140067C52D /* Sources */,
+				A74603D91CEA78140067C52D /* Frameworks */,
+				A74603DA1CEA78140067C52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74603DE1CEA78140067C52D /* PBXTargetDependency */,
+			);
+			name = C4EmojiSlotsUITests;
+			productName = C4EmojiSlotsUITests;
+			productReference = A74603DC1CEA78140067C52D /* C4EmojiSlotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74603B51CEA78140067C52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Oliver Andrews";
+				TargetAttributes = {
+					A74603BC1CEA78140067C52D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A74603D01CEA78140067C52D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A74603BC1CEA78140067C52D;
+					};
+					A74603DB1CEA78140067C52D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A74603BC1CEA78140067C52D;
+					};
+				};
+			};
+			buildConfigurationList = A74603B81CEA78140067C52D /* Build configuration list for PBXProject "C4EmojiSlots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74603B41CEA78140067C52D;
+			productRefGroup = A74603BE1CEA78140067C52D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7B39D8E1CF3D21F005F010B /* Products */;
+					ProjectRef = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A74603BC1CEA78140067C52D /* C4EmojiSlots */,
+				A74603D01CEA78140067C52D /* C4EmojiSlotsTests */,
+				A74603DB1CEA78140067C52D /* C4EmojiSlotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7B39D941CF3D21F005F010B /* C4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = C4.framework;
+			remoteRef = A7B39D931CF3D21F005F010B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B39D961CF3D21F005F010B /* C4Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = C4Tests.xctest;
+			remoteRef = A7B39D951CF3D21F005F010B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B39D981CF3D21F005F010B /* C4App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = C4App.app;
+			remoteRef = A7B39D971CF3D21F005F010B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74603BB1CEA78140067C52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74603CB1CEA78140067C52D /* LaunchScreen.storyboard in Resources */,
+				A74603C81CEA78140067C52D /* Assets.xcassets in Resources */,
+				A74603C61CEA78140067C52D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603CF1CEA78140067C52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603DA1CEA78140067C52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74603B91CEA78140067C52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74603C31CEA78140067C52D /* ViewController.swift in Sources */,
+				A74603C11CEA78140067C52D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603CD1CEA78140067C52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74603D61CEA78140067C52D /* C4EmojiSlotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74603D81CEA78140067C52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74603E11CEA78140067C52D /* C4EmojiSlotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74603D31CEA78140067C52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74603BC1CEA78140067C52D /* C4EmojiSlots */;
+			targetProxy = A74603D21CEA78140067C52D /* PBXContainerItemProxy */;
+		};
+		A74603DE1CEA78140067C52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74603BC1CEA78140067C52D /* C4EmojiSlots */;
+			targetProxy = A74603DD1CEA78140067C52D /* PBXContainerItemProxy */;
+		};
+		A7B39D9C1CF3D224005F010B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = C4;
+			targetProxy = A7B39D9B1CF3D224005F010B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74603C41CEA78140067C52D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74603C51CEA78140067C52D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74603C91CEA78140067C52D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74603CA1CEA78140067C52D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74603E31CEA78140067C52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74603E41CEA78140067C52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74603E61CEA78140067C52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = C4EmojiSlots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74603E71CEA78140067C52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = C4EmojiSlots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A74603E91CEA78140067C52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = C4EmojiSlotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C4EmojiSlots.app/C4EmojiSlots";
+			};
+			name = Debug;
+		};
+		A74603EA1CEA78140067C52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = C4EmojiSlotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C4EmojiSlots.app/C4EmojiSlots";
+			};
+			name = Release;
+		};
+		A74603EC1CEA78140067C52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = C4EmojiSlotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = C4EmojiSlots;
+			};
+			name = Debug;
+		};
+		A74603ED1CEA78140067C52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = C4EmojiSlotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = C4EmojiSlots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74603B81CEA78140067C52D /* Build configuration list for PBXProject "C4EmojiSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74603E31CEA78140067C52D /* Debug */,
+				A74603E41CEA78140067C52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74603E51CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74603E61CEA78140067C52D /* Debug */,
+				A74603E71CEA78140067C52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74603E81CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74603E91CEA78140067C52D /* Debug */,
+				A74603EA1CEA78140067C52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74603EB1CEA78140067C52D /* Build configuration list for PBXNativeTarget "C4EmojiSlotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74603EC1CEA78140067C52D /* Debug */,
+				A74603ED1CEA78140067C52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74603B51CEA78140067C52D /* Project object */;
+}
