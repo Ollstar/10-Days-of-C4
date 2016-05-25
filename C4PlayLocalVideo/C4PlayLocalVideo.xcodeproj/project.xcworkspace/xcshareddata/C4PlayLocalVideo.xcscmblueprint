@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E90DC4D8CBD214DABA8BB0031D74E348B219AC7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54F4D03C461288D08B6868DC66C04481BECA35A3" : 0,
+    "E90DC4D8CBD214DABA8BB0031D74E348B219AC7F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D1E02273-33BA-4125-94EA-EC7E1B777213",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54F4D03C461288D08B6868DC66C04481BECA35A3" : "C4iOS\/",
+    "E90DC4D8CBD214DABA8BB0031D74E348B219AC7F" : "10%20Days%20of%20C4\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "C4PlayLocalVideo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "C4PlayLocalVideo\/C4PlayLocalVideo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/C4Framework\/C4iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54F4D03C461288D08B6868DC66C04481BECA35A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ollstar\/10-Days-of-C4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E90DC4D8CBD214DABA8BB0031D74E348B219AC7F"
+    }
+  ]
+}

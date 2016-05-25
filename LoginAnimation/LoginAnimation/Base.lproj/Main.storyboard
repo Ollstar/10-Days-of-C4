@@ -25,12 +25,12 @@
                                     <constraint firstAttribute="height" constant="50" id="MFv-3v-hV7"/>
                                 </constraints>
                                 <state key="normal" title="Sign Up">
-                                    <color key="titleColor" red="0.5458827959" green="1" blue="0.37335909810000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.30780382099999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fX-jT-nUo">
                                 <rect key="frame" x="23" y="549" width="328" height="50"/>
-                                <color key="backgroundColor" red="0.25652855208534081" green="0.47116328534031415" blue="0.17872044777906576" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.49320493932263254" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0Iw-Ve-RCU"/>
                                 </constraints>
@@ -41,11 +41,15 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="DbG-G4-oO0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="ImD-Gy-foq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-karate-kid-4fdb2bf47b4d0" translatesAutoresizingMaskIntoConstraints="NO" id="ImD-Gy-foq">
                                 <rect key="frame" x="78" y="106" width="218" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="LKq-dW-tIH"/>
+                                    <constraint firstAttribute="height" constant="66" id="yv8-Oh-ItC"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.5458827959" green="1" blue="0.37335909810000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.30780382098195247" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="9fX-jT-nUo" secondAttribute="trailing" constant="8" id="Bfo-lc-eDw"/>
                             <constraint firstItem="9fX-jT-nUo" firstAttribute="leading" secondItem="hiY-dW-qy5" secondAttribute="leadingMargin" constant="7" id="Ep5-JM-SN6"/>
@@ -113,7 +117,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhh-1r-N93">
                                 <rect key="frame" x="113" y="414" width="150" height="50"/>
-                                <color key="backgroundColor" red="0.25167368409726859" green="0.46224640052356025" blue="0.17533811792266885" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.89803921568627454" green="0.19607843137254902" blue="0.41568627450980394" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="TpG-oK-Awk"/>
                                     <constraint firstAttribute="height" constant="50" id="wjo-mn-ma2"/>
@@ -126,7 +130,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.5458827959" green="1" blue="0.37335909810000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.30780382099999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Hq2-u9-tcA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="39U-Ll-6MC"/>
                             <constraint firstItem="Nhh-1r-N93" firstAttribute="centerX" secondItem="wOi-Kc-xWT" secondAttribute="centerX" id="4y7-WL-b67"/>
@@ -156,6 +160,6 @@
     </scenes>
     <resources>
         <image name="Back-icon" width="14" height="24"/>
-        <image name="login-secondary-logo" width="218" height="66"/>
+        <image name="the-karate-kid-4fdb2bf47b4d0" width="400" height="155"/>
     </resources>
 </document>

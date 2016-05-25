@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = videoTableView.dequeueReusableCellWithIdentifier("VideoCell", forIndexPath: indexPath) as! VideoCell
         
-        cell.movie = Movie("step.mov")!
+        cell.movie = Movie("Jackie Chan funniest movie clip.mov")!
         cell.movie!.frame = Rect(cell.bounds)
         cell.contentView.add(cell.movie!)
         return cell
@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return
         }
         if cell.isPlaying {
-            movie.stop()
+            movie.pause()
             cell.isPlaying = false
         } else {
             movie.play()

@@ -44,9 +44,9 @@ class ViewController: UICollectionViewController, FMMosaicLayoutDelegate {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
         
-        let randomBlue = CGFloat(drand48())
-        let randomRed = CGFloat(drand48())
-        let randomGreen = CGFloat(drand48())
+        let randomBlue = CGFloat(random01())
+        let randomRed = CGFloat(random01())
+        let randomGreen = CGFloat(random01())
         
         cell.backgroundColor = UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
         cell.alpha = 0
@@ -55,17 +55,14 @@ class ViewController: UICollectionViewController, FMMosaicLayoutDelegate {
         imageView.image = UIImage(named: imageArray[indexPath.row])
         
         
-        let cellDelay = UInt64((arc4random() % 600 ) / 1000 )
+        let cellDelay = Double((random(below: 600) / 1000 ))
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(cellDelay * NSEC_PER_SEC )), dispatch_get_main_queue(), ({ () -> Void in
-            
-            UIView.animateWithDuration(0.8, animations: ({
-                
+        
+        wait(cellDelay) {
+            ViewAnimation(duration: 0.8) {
                 cell.alpha = 1.0
-                
-            }))
-            
-        }))
+            }.animate()
+        }
         
         return cell
         

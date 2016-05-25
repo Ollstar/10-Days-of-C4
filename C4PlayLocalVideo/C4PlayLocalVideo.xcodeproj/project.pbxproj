@@ -16,7 +16,7 @@
 		A77FF6541CD7D8B6002D62AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77FF6521CD7D8B6002D62AF /* LaunchScreen.storyboard */; };
 		A77FF65F1CD7D8B7002D62AF /* C4PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF65E1CD7D8B7002D62AF /* C4PlayLocalVideoTests.swift */; };
 		A77FF66A1CD7D8B7002D62AF /* C4PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF6691CD7D8B7002D62AF /* C4PlayLocalVideoUITests.swift */; };
-		A77FF68D1CD7DE81002D62AF /* step.mov in Resources */ = {isa = PBXBuildFile; fileRef = A77FF68C1CD7DE81002D62AF /* step.mov */; };
+		A79F7FEE1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov in Resources */ = {isa = PBXBuildFile; fileRef = A79F7FED1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +93,7 @@
 		A77FF6651CD7D8B7002D62AF /* C4PlayLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C4PlayLocalVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77FF6691CD7D8B7002D62AF /* C4PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
 		A77FF66B1CD7D8B7002D62AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A77FF6791CD7DD1F002D62AF /* emojizone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = emojizone.mp4; sourceTree = "<group>"; };
-		A77FF68C1CD7DE81002D62AF /* step.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = step.mov; sourceTree = "<group>"; };
+		A79F7FED1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Jackie Chan funniest movie clip.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,11 +156,10 @@
 		A77FF6481CD7D8B6002D62AF /* C4PlayLocalVideo */ = {
 			isa = PBXGroup;
 			children = (
+				A79F7FED1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov */,
 				A77FF6491CD7D8B6002D62AF /* AppDelegate.swift */,
 				A77FF64B1CD7D8B6002D62AF /* ViewController.swift */,
 				A77FF64D1CD7D8B6002D62AF /* Main.storyboard */,
-				A77FF6791CD7DD1F002D62AF /* emojizone.mp4 */,
-				A77FF68C1CD7DE81002D62AF /* step.mov */,
 				A77FF6501CD7D8B6002D62AF /* Assets.xcassets */,
 				A77FF6521CD7D8B6002D62AF /* LaunchScreen.storyboard */,
 				A77FF6551CD7D8B6002D62AF /* Info.plist */,
@@ -323,7 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77FF68D1CD7DE81002D62AF /* step.mov in Resources */,
+				A79F7FEE1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov in Resources */,
 				A77FF6541CD7D8B6002D62AF /* LaunchScreen.storyboard in Resources */,
 				A77FF6511CD7D8B6002D62AF /* Assets.xcassets in Resources */,
 				A77FF64F1CD7D8B6002D62AF /* Main.storyboard in Resources */,

@@ -79,14 +79,19 @@ class ViewController: UIViewController {
         let bounds = self.loginButton.bounds
         
         //Animate
-        let animation = ViewAnimation(duration: 1.0) {
-            self.loginButton.bounds = CGRect(x: bounds.origin.x - 20, y: bounds.origin.y, width: bounds.size.width + 60, height: bounds.size.height)
+        let animation = ViewAnimation(duration: 0.5) {
+            self.loginButton.bounds = CGRect(x: bounds.origin.x - 20, y: bounds.origin.y, width: bounds.size.width + 30, height: bounds.size.height)
             self.loginButton.enabled = false
         }
         animation.spring = Spring(damping: 0.2, initialVelocity: 10)
         animation.curve = .Linear
         animation.addCompletionObserver { 
             self.loginButton.enabled = true
+            let a = ViewAnimation(duration:0.1) {
+                self.loginButton.bounds = bounds
+            }
+            a.curve = .Linear
+            a.animate()
         }
         animation.animate()
 

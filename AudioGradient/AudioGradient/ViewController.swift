@@ -19,7 +19,7 @@ class ViewController: CanvasController {
     var timer: Timer!
     var label: UILabel!
     override func setup() {
-        
+        audio.loops = true
         gradient = createGradient()
         canvas.add(gradient)
         let button = createButton()
@@ -33,8 +33,10 @@ class ViewController: CanvasController {
             self.gradient.colors[1].green = random01()
 
             self.gradient.locations = [random01(), random01()]
-            self.gradient.startPoint = self.randomPoint()
-            self.gradient.endPoint = self.randomPoint()
+            
+            //uncomment for more wackiness
+//            self.gradient.startPoint = self.randomPoint()
+//            self.gradient.endPoint = self.randomPoint()
             
         }
     }
