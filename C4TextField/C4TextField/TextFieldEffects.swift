@@ -68,18 +68,18 @@ public class TextFieldEffects : UITextField {
      
      - parameter rect:	The portion of the view’s bounds that needs to be updated.
      */
-    public func drawViewsForRect(rect: CGRect) {
+    public func drawViewsForRect(rect: Rect) {
         fatalError("\(#function) must be overridden")
     }
     
-    public func updateViewsForBoundsChange(bounds: CGRect) {
+    public func updateViewsForBoundsChange(bounds: Rect) {
         fatalError("\(#function) must be overridden")
     }
     
     // MARK: - Overrides
     
     override public func drawRect(rect: CGRect) {
-        drawViewsForRect(rect)
+        drawViewsForRect(Rect(rect))
     }
     
     override public func drawPlaceholderInRect(rect: CGRect) {
@@ -125,6 +125,6 @@ public class TextFieldEffects : UITextField {
     // MARK: - Interface Builder
     
     override public func prepareForInterfaceBuilder() {
-        drawViewsForRect(frame)
+        drawViewsForRect(Rect(frame))
     }
 }

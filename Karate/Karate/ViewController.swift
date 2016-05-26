@@ -67,8 +67,6 @@ class ViewController: CanvasController, MenuTransitionManagerDelegate {
 
     }
     
-    
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         player?.stop()
         let menuTableViewController = segue.destinationViewController as! MenuTableViewController

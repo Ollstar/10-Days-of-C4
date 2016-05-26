@@ -65,7 +65,7 @@ import C4
     
     // MARK: TextFieldEffects
     
-    override public func drawViewsForRect(rect: CGRect) {
+    override public func drawViewsForRect(rect: Rect) {
         updateBorder()
         updatePlaceholder()
         
