@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A746045D1CEA855D0067C52D /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74604541CEA85400067C52D /* C4.framework */; };
-		A746045E1CEA855D0067C52D /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A74604541CEA85400067C52D /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A728E2741CF7A31300CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E2731CF7A31300CBCC8B /* C4.framework */; };
+		A728E27E1CF7B15D00CBCC8B /* Funny Bruce Lee clip.mov in Resources */ = {isa = PBXBuildFile; fileRef = A728E27D1CF7B15D00CBCC8B /* Funny Bruce Lee clip.mov */; };
+		A728E2801CF7B27A00CBCC8B /* JCVD and Me.mov in Resources */ = {isa = PBXBuildFile; fileRef = A728E27F1CF7B27A00CBCC8B /* JCVD and Me.mov */; };
 		A77FF64A1CD7D8B6002D62AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF6491CD7D8B6002D62AF /* AppDelegate.swift */; };
 		A77FF64C1CD7D8B6002D62AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF64B1CD7D8B6002D62AF /* ViewController.swift */; };
 		A77FF64F1CD7D8B6002D62AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77FF64D1CD7D8B6002D62AF /* Main.storyboard */; };
@@ -20,34 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A74604531CEA85400067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746044D1CEA85400067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A74604551CEA85400067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746044D1CEA85400067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A74604571CEA85400067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746044D1CEA85400067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A746045F1CEA855D0067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746044D1CEA85400067C52D /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 		A77FF65B1CD7D8B7002D62AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A77FF63E1CD7D8B6002D62AF /* Project object */;
@@ -71,7 +44,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A746045E1CEA855D0067C52D /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A746044D1CEA85400067C52D /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../../Documents/C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
+		A728E2731CF7A31300CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
+		A728E27D1CF7B15D00CBCC8B /* Funny Bruce Lee clip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Funny Bruce Lee clip.mov"; sourceTree = "<group>"; };
+		A728E27F1CF7B27A00CBCC8B /* JCVD and Me.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "JCVD and Me.mov"; sourceTree = "<group>"; };
 		A77FF6461CD7D8B6002D62AF /* C4PlayLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4PlayLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77FF6491CD7D8B6002D62AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77FF64B1CD7D8B6002D62AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A746045D1CEA855D0067C52D /* C4.framework in Frameworks */,
+				A728E2741CF7A31300CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,20 +96,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A746044E1CEA85400067C52D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A74604541CEA85400067C52D /* C4.framework */,
-				A74604561CEA85400067C52D /* C4Tests.xctest */,
-				A74604581CEA85400067C52D /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A77FF63D1CD7D8B6002D62AF = {
 			isa = PBXGroup;
 			children = (
-				A746044D1CEA85400067C52D /* C4iOS.xcodeproj */,
+				A728E2731CF7A31300CBCC8B /* C4.framework */,
 				A77FF6481CD7D8B6002D62AF /* C4PlayLocalVideo */,
 				A77FF65D1CD7D8B7002D62AF /* C4PlayLocalVideoTests */,
 				A77FF6681CD7D8B7002D62AF /* C4PlayLocalVideoUITests */,
@@ -157,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				A79F7FED1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov */,
+				A728E27D1CF7B15D00CBCC8B /* Funny Bruce Lee clip.mov */,
+				A728E27F1CF7B27A00CBCC8B /* JCVD and Me.mov */,
 				A77FF6491CD7D8B6002D62AF /* AppDelegate.swift */,
 				A77FF64B1CD7D8B6002D62AF /* ViewController.swift */,
 				A77FF64D1CD7D8B6002D62AF /* Main.storyboard */,
@@ -196,11 +162,11 @@
 				A77FF6431CD7D8B6002D62AF /* Frameworks */,
 				A77FF6441CD7D8B6002D62AF /* Resources */,
 				A77FF68A1CD7DD52002D62AF /* Embed Frameworks */,
+				A728E2721CF7A22E00CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A74604601CEA855D0067C52D /* PBXTargetDependency */,
 			);
 			name = C4PlayLocalVideo;
 			productName = C4PlayLocalVideo;
@@ -277,12 +243,6 @@
 			mainGroup = A77FF63D1CD7D8B6002D62AF;
 			productRefGroup = A77FF6471CD7D8B6002D62AF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A746044E1CEA85400067C52D /* Products */;
-					ProjectRef = A746044D1CEA85400067C52D /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A77FF6451CD7D8B6002D62AF /* C4PlayLocalVideo */,
@@ -292,30 +252,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A74604541CEA85400067C52D /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A74604531CEA85400067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A74604561CEA85400067C52D /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A74604551CEA85400067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A74604581CEA85400067C52D /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A74604571CEA85400067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		A77FF6441CD7D8B6002D62AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -323,8 +259,10 @@
 			files = (
 				A79F7FEE1CF637FD00B7B203 /* Jackie Chan funniest movie clip.mov in Resources */,
 				A77FF6541CD7D8B6002D62AF /* LaunchScreen.storyboard in Resources */,
+				A728E27E1CF7B15D00CBCC8B /* Funny Bruce Lee clip.mov in Resources */,
 				A77FF6511CD7D8B6002D62AF /* Assets.xcassets in Resources */,
 				A77FF64F1CD7D8B6002D62AF /* Main.storyboard in Resources */,
+				A728E2801CF7B27A00CBCC8B /* JCVD and Me.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +281,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E2721CF7A22E00CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A77FF6421CD7D8B6002D62AF /* Sources */ = {
@@ -373,11 +328,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A74604601CEA855D0067C52D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A746045F1CEA855D0067C52D /* PBXContainerItemProxy */;
-		};
 		A77FF65C1CD7D8B7002D62AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A77FF6451CD7D8B6002D62AF /* C4PlayLocalVideo */;
@@ -500,6 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4PlayLocalVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4PlayLocalVideo;
@@ -512,6 +466,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4PlayLocalVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4PlayLocalVideo;

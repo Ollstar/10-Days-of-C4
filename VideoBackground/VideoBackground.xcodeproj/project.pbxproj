@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E25F1CF795EB00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E25E1CF795EB00CBCC8B /* C4.framework */; };
 		A79F7FA91CF62F7100B7B203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FA81CF62F7100B7B203 /* AppDelegate.swift */; };
 		A79F7FAB1CF62F7100B7B203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FAA1CF62F7100B7B203 /* ViewController.swift */; };
 		A79F7FAE1CF62F7100B7B203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79F7FAC1CF62F7100B7B203 /* Main.storyboard */; };
@@ -15,8 +16,6 @@
 		A79F7FBE1CF62F7200B7B203 /* VideoBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FBD1CF62F7200B7B203 /* VideoBackgroundTests.swift */; };
 		A79F7FC91CF62F7200B7B203 /* VideoBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FC81CF62F7200B7B203 /* VideoBackgroundUITests.swift */; };
 		A79F7FD71CF6307500B7B203 /* Jackie Chan funniest movie clip.mov in Resources */ = {isa = PBXBuildFile; fileRef = A79F7FD61CF6307500B7B203 /* Jackie Chan funniest movie clip.mov */; };
-		A79F7FE41CF630E900B7B203 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F7FDF1CF630E200B7B203 /* C4.framework */; };
-		A79F7FE51CF630E900B7B203 /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A79F7FDF1CF630E200B7B203 /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,34 +33,6 @@
 			remoteGlobalIDString = A79F7FA41CF62F7100B7B203;
 			remoteInfo = VideoBackground;
 		};
-		A79F7FDE1CF630E200B7B203 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A79F7FE01CF630E200B7B203 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A79F7FE21CF630E200B7B203 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A79F7FE61CF630E900B7B203 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A79F7FE51CF630E900B7B203 /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A728E25E1CF795EB00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A79F7FA51CF62F7100B7B203 /* VideoBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79F7FA81CF62F7100B7B203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A79F7FAA1CF62F7100B7B203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +64,6 @@
 		A79F7FC81CF62F7200B7B203 /* VideoBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundUITests.swift; sourceTree = "<group>"; };
 		A79F7FCA1CF62F7200B7B203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79F7FD61CF6307500B7B203 /* Jackie Chan funniest movie clip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Jackie Chan funniest movie clip.mov"; sourceTree = "<group>"; };
-		A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79F7FE41CF630E900B7B203 /* C4.framework in Frameworks */,
+				A728E25F1CF795EB00CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +95,7 @@
 		A79F7F9C1CF62F7100B7B203 = {
 			isa = PBXGroup;
 			children = (
-				A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */,
+				A728E25E1CF795EB00CBCC8B /* C4.framework */,
 				A79F7FD61CF6307500B7B203 /* Jackie Chan funniest movie clip.mov */,
 				A79F7FA71CF62F7100B7B203 /* VideoBackground */,
 				A79F7FBC1CF62F7200B7B203 /* VideoBackgroundTests */,
@@ -175,16 +145,6 @@
 			path = VideoBackgroundUITests;
 			sourceTree = "<group>";
 		};
-		A79F7FD91CF630E200B7B203 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A79F7FDF1CF630E200B7B203 /* C4.framework */,
-				A79F7FE11CF630E200B7B203 /* C4Tests.xctest */,
-				A79F7FE31CF630E200B7B203 /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,11 +156,11 @@
 				A79F7FA21CF62F7100B7B203 /* Frameworks */,
 				A79F7FA31CF62F7100B7B203 /* Resources */,
 				A79F7FE81CF630E900B7B203 /* Embed Frameworks */,
+				A728E2601CF795F600CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A79F7FE71CF630E900B7B203 /* PBXTargetDependency */,
 			);
 			name = VideoBackground;
 			productName = VideoBackground;
@@ -277,12 +237,6 @@
 			mainGroup = A79F7F9C1CF62F7100B7B203;
 			productRefGroup = A79F7FA61CF62F7100B7B203 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A79F7FD91CF630E200B7B203 /* Products */;
-					ProjectRef = A79F7FD81CF630E200B7B203 /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A79F7FA41CF62F7100B7B203 /* VideoBackground */,
@@ -291,30 +245,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A79F7FDF1CF630E200B7B203 /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A79F7FDE1CF630E200B7B203 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A79F7FE11CF630E200B7B203 /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A79F7FE01CF630E200B7B203 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A79F7FE31CF630E200B7B203 /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A79F7FE21CF630E200B7B203 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A79F7FA31CF62F7100B7B203 /* Resources */ = {
@@ -343,6 +273,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E2601CF795F600CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A79F7FA11CF62F7100B7B203 /* Sources */ = {
@@ -382,11 +329,6 @@
 			isa = PBXTargetDependency;
 			target = A79F7FA41CF62F7100B7B203 /* VideoBackground */;
 			targetProxy = A79F7FC51CF62F7200B7B203 /* PBXContainerItemProxy */;
-		};
-		A79F7FE71CF630E900B7B203 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A79F7FE61CF630E900B7B203 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,6 +442,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VideoBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.VideoBackground;
@@ -512,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VideoBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.VideoBackground;
@@ -584,6 +534,7 @@
 				A79F7FCF1CF62F7200B7B203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79F7FD01CF62F7200B7B203 /* Build configuration list for PBXNativeTarget "VideoBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +543,7 @@
 				A79F7FD21CF62F7200B7B203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79F7FD31CF62F7200B7B203 /* Build configuration list for PBXNativeTarget "VideoBackgroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +552,7 @@
 				A79F7FD51CF62F7200B7B203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

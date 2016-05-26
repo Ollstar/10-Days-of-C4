@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E2671CF79DE100CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E2661CF79DE100CBCC8B /* C4.framework */; };
 		A746046E1CEA88C60067C52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746046D1CEA88C60067C52D /* AppDelegate.swift */; };
 		A74604701CEA88C60067C52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746046F1CEA88C60067C52D /* ViewController.swift */; };
 		A74604731CEA88C60067C52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74604711CEA88C60067C52D /* Main.storyboard */; };
@@ -14,8 +15,6 @@
 		A74604781CEA88C60067C52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74604761CEA88C60067C52D /* LaunchScreen.storyboard */; };
 		A74604831CEA88C70067C52D /* AnimatedSplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74604821CEA88C70067C52D /* AnimatedSplashTests.swift */; };
 		A746048E1CEA88C70067C52D /* AnimatedSplashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746048D1CEA88C70067C52D /* AnimatedSplashUITests.swift */; };
-		A74604A71CEA8AAF0067C52D /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74604A21CEA8A920067C52D /* C4.framework */; };
-		A74604A81CEA8AAF0067C52D /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A74604A21CEA8A920067C52D /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +32,6 @@
 			remoteGlobalIDString = A74604691CEA88C60067C52D;
 			remoteInfo = AnimatedSplash;
 		};
-		A74604A11CEA8A920067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A74604A31CEA8A920067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A74604A51CEA8A920067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A74604A91CEA8AAF0067C52D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A74604A81CEA8AAF0067C52D /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A728E2661CF79DE100CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A746046A1CEA88C60067C52D /* AnimatedSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A746046D1CEA88C60067C52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A746046F1CEA88C60067C52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +62,6 @@
 		A74604891CEA88C70067C52D /* AnimatedSplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedSplashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A746048D1CEA88C70067C52D /* AnimatedSplashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashUITests.swift; sourceTree = "<group>"; };
 		A746048F1CEA88C70067C52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74604A71CEA8AAF0067C52D /* C4.framework in Frameworks */,
+				A728E2671CF79DE100CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +93,7 @@
 		A74604611CEA88C60067C52D = {
 			isa = PBXGroup;
 			children = (
-				A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */,
+				A728E2661CF79DE100CBCC8B /* C4.framework */,
 				A746046C1CEA88C60067C52D /* AnimatedSplash */,
 				A74604811CEA88C70067C52D /* AnimatedSplashTests */,
 				A746048C1CEA88C70067C52D /* AnimatedSplashUITests */,
@@ -172,16 +142,6 @@
 			path = AnimatedSplashUITests;
 			sourceTree = "<group>";
 		};
-		A746049C1CEA8A920067C52D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A74604A21CEA8A920067C52D /* C4.framework */,
-				A74604A41CEA8A920067C52D /* C4Tests.xctest */,
-				A74604A61CEA8A920067C52D /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,11 +153,11 @@
 				A74604671CEA88C60067C52D /* Frameworks */,
 				A74604681CEA88C60067C52D /* Resources */,
 				A74604AB1CEA8AAF0067C52D /* Embed Frameworks */,
+				A728E2681CF79DE800CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A74604AA1CEA8AAF0067C52D /* PBXTargetDependency */,
 			);
 			name = AnimatedSplash;
 			productName = AnimatedSplash;
@@ -274,12 +234,6 @@
 			mainGroup = A74604611CEA88C60067C52D;
 			productRefGroup = A746046B1CEA88C60067C52D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A746049C1CEA8A920067C52D /* Products */;
-					ProjectRef = A746049B1CEA8A920067C52D /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A74604691CEA88C60067C52D /* AnimatedSplash */,
@@ -288,30 +242,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A74604A21CEA8A920067C52D /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A74604A11CEA8A920067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A74604A41CEA8A920067C52D /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A74604A31CEA8A920067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A74604A61CEA8A920067C52D /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A74604A51CEA8A920067C52D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A74604681CEA88C60067C52D /* Resources */ = {
@@ -339,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E2681CF79DE800CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A74604661CEA88C60067C52D /* Sources */ = {
@@ -378,11 +325,6 @@
 			isa = PBXTargetDependency;
 			target = A74604691CEA88C60067C52D /* AnimatedSplash */;
 			targetProxy = A746048A1CEA88C70067C52D /* PBXContainerItemProxy */;
-		};
-		A74604AA1CEA8AAF0067C52D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A74604A91CEA8AAF0067C52D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnimatedSplash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.AnimatedSplash;
@@ -508,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnimatedSplash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.AnimatedSplash;

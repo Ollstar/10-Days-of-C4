@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7B39D881CF3D08E005F010B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D831CF3D087005F010B /* C4.framework */; };
-		A7B39D891CF3D08E005F010B /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D831CF3D087005F010B /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A728E26C1CF79F8A00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E26B1CF79F8A00CBCC8B /* C4.framework */; };
 		A7E39E7A1CE4F5BE00F351CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E39E791CE4F5BE00F351CA /* AppDelegate.swift */; };
 		A7E39E7C1CE4F5BE00F351CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E39E7B1CE4F5BE00F351CA /* ViewController.swift */; };
 		A7E39E7F1CE4F5BE00F351CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E39E7D1CE4F5BE00F351CA /* Main.storyboard */; };
@@ -20,34 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7B39D821CF3D087005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A7B39D841CF3D087005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A7B39D861CF3D087005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A7B39D8A1CF3D08E005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 		A7E39E8B1CE4F5BF00F351CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7E39E6E1CE4F5BE00F351CA /* Project object */;
@@ -71,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A7B39D891CF3D08E005F010B /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
+		A728E26B1CF79F8A00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A7E39E761CE4F5BE00F351CA /* AudioGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E39E791CE4F5BE00F351CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7E39E7B1CE4F5BE00F351CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B39D881CF3D08E005F010B /* C4.framework in Frameworks */,
+				A728E26C1CF79F8A00CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,20 +92,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7B39D7D1CF3D087005F010B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A7B39D831CF3D087005F010B /* C4.framework */,
-				A7B39D851CF3D087005F010B /* C4Tests.xctest */,
-				A7B39D871CF3D087005F010B /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A7E39E6D1CE4F5BE00F351CA = {
 			isa = PBXGroup;
 			children = (
-				A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */,
+				A728E26B1CF79F8A00CBCC8B /* C4.framework */,
 				A7E39E781CE4F5BE00F351CA /* AudioGradient */,
 				A7E39E8D1CE4F5BF00F351CA /* AudioGradientTests */,
 				A7E39E981CE4F5BF00F351CA /* AudioGradientUITests */,
@@ -196,11 +156,11 @@
 				A7E39E731CE4F5BE00F351CA /* Frameworks */,
 				A7E39E741CE4F5BE00F351CA /* Resources */,
 				A7E39ECE1CE4F63300F351CA /* Embed Frameworks */,
+				A728E26A1CF79F4100CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7B39D8B1CF3D08E005F010B /* PBXTargetDependency */,
 			);
 			name = AudioGradient;
 			productName = AudioGradient;
@@ -277,12 +237,6 @@
 			mainGroup = A7E39E6D1CE4F5BE00F351CA;
 			productRefGroup = A7E39E771CE4F5BE00F351CA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A7B39D7D1CF3D087005F010B /* Products */;
-					ProjectRef = A7B39D7C1CF3D087005F010B /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A7E39E751CE4F5BE00F351CA /* AudioGradient */,
@@ -291,30 +245,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A7B39D831CF3D087005F010B /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A7B39D821CF3D087005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A7B39D851CF3D087005F010B /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A7B39D841CF3D087005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A7B39D871CF3D087005F010B /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A7B39D861CF3D087005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7E39E741CE4F5BE00F351CA /* Resources */ = {
@@ -343,6 +273,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E26A1CF79F4100CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7E39E721CE4F5BE00F351CA /* Sources */ = {
@@ -373,11 +320,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7B39D8B1CF3D08E005F010B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A7B39D8A1CF3D08E005F010B /* PBXContainerItemProxy */;
-		};
 		A7E39E8C1CE4F5BF00F351CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7E39E751CE4F5BE00F351CA /* AudioGradient */;
@@ -500,6 +442,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AudioGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.AudioGradient;
@@ -512,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AudioGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.AudioGradient;

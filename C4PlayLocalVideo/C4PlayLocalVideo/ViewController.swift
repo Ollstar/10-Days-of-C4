@@ -12,6 +12,7 @@ import C4
 class VideoCell: UITableViewCell {
     var movie: Movie?
     var isPlaying = true
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,7 +23,8 @@ class VideoCell: UITableViewCell {
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var videoTableView: UITableView!
-
+    var movieTitles = ["Jackie Chan funniest movie clip.mov","Funny Bruce Lee clip.mov","JCVD and Me.mov"]
+    
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 220
     }
@@ -39,7 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = videoTableView.dequeueReusableCellWithIdentifier("VideoCell", forIndexPath: indexPath) as! VideoCell
         
-        cell.movie = Movie("Jackie Chan funniest movie clip.mov")!
+        cell.movie = Movie(movieTitles[indexPath.row])!
         cell.movie!.frame = Rect(cell.bounds)
         cell.contentView.add(cell.movie!)
         return cell

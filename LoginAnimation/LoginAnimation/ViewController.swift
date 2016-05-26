@@ -52,26 +52,24 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        let a1 = ViewAnimation(duration: 0.5) {
+        animateForHalfSecondWithDelay(0) { 
             self.centerAlignUsername.constant += self.view.bounds.width
             self.view.layoutIfNeeded()
         }
-        a1.curve = .EaseOut
-        a1.animate()
-        let a2 = ViewAnimation(duration: 0.5) {
+        animateForHalfSecondWithDelay(0.1) { 
             self.centerAlignPassword.constant += self.view.bounds.width
             self.view.layoutIfNeeded()
         }
-        a2.delay = 0.10
-        a2.curve = .EaseOut
-        a2.animate()
-        let a3 = ViewAnimation(duration: 0.5) {
+        animateForHalfSecondWithDelay(0.2) { 
             self.loginButton.alpha = 1
         }
-        a3.delay = 0.20
-        a3.curve = .EaseOut
-        a3.animate()
-        
+    }
+    
+    func animateForHalfSecondWithDelay(delay: Double, action: () -> ()) {
+        let a = ViewAnimation(duration: 0.5, animations: action)
+        a.curve = .EaseOut
+        a.delay = delay
+        a.animate()
     }
     
     @IBAction func loginButtonDidTouch(sender: UIButton) {

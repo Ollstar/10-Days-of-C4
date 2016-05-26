@@ -41,7 +41,7 @@ class ViewController: CanvasController {
         topView.backgroundColor = blue
         canvas.add(topView)
 
-        let resetFrame = Rect(canvas.width - 125,50,100,50)
+        let resetFrame = Rect(canvas.width - 125,25,100,50)
         let resetButtonView = View(frame: resetFrame)
         let resetLabel = UILabel()
         resetLabel.frame = CGRect(resetButtonView.bounds)

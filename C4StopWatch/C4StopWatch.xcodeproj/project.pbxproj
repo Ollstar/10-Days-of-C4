@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E2781CF7A5EC00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E2771CF7A5EC00CBCC8B /* C4.framework */; };
 		A77FF5C51CD7C82C002D62AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF5C41CD7C82C002D62AF /* AppDelegate.swift */; };
 		A77FF5C71CD7C82C002D62AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF5C61CD7C82C002D62AF /* ViewController.swift */; };
 		A77FF5CA1CD7C82C002D62AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77FF5C81CD7C82C002D62AF /* Main.storyboard */; };
@@ -14,8 +15,6 @@
 		A77FF5CF1CD7C82C002D62AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77FF5CD1CD7C82C002D62AF /* LaunchScreen.storyboard */; };
 		A77FF5DA1CD7C82C002D62AF /* C4StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF5D91CD7C82C002D62AF /* C4StopWatchTests.swift */; };
 		A77FF5E51CD7C82D002D62AF /* C4StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FF5E41CD7C82D002D62AF /* C4StopWatchUITests.swift */; };
-		A77FF5FE1CD7C967002D62AF /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77FF5F91CD7C95E002D62AF /* C4.framework */; };
-		A77FF5FF1CD7C967002D62AF /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A77FF5F91CD7C95E002D62AF /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +32,6 @@
 			remoteGlobalIDString = A77FF5C01CD7C82C002D62AF;
 			remoteInfo = C4StopWatch;
 		};
-		A77FF5F81CD7C95E002D62AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A77FF5FA1CD7C95E002D62AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A77FF5FC1CD7C95E002D62AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A77FF6001CD7C967002D62AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A77FF5FF1CD7C967002D62AF /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A728E2771CF7A5EC00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A77FF5C11CD7C82C002D62AF /* C4StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77FF5C41CD7C82C002D62AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77FF5C61CD7C82C002D62AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +62,6 @@
 		A77FF5E01CD7C82C002D62AF /* C4StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C4StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77FF5E41CD7C82D002D62AF /* C4StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4StopWatchUITests.swift; sourceTree = "<group>"; };
 		A77FF5E61CD7C82D002D62AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77FF5FE1CD7C967002D62AF /* C4.framework in Frameworks */,
+				A728E2781CF7A5EC00CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +93,7 @@
 		A77FF5B81CD7C82C002D62AF = {
 			isa = PBXGroup;
 			children = (
-				A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */,
+				A728E2771CF7A5EC00CBCC8B /* C4.framework */,
 				A77FF5C31CD7C82C002D62AF /* C4StopWatch */,
 				A77FF5D81CD7C82C002D62AF /* C4StopWatchTests */,
 				A77FF5E31CD7C82D002D62AF /* C4StopWatchUITests */,
@@ -172,16 +142,6 @@
 			path = C4StopWatchUITests;
 			sourceTree = "<group>";
 		};
-		A77FF5F31CD7C95D002D62AF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A77FF5F91CD7C95E002D62AF /* C4.framework */,
-				A77FF5FB1CD7C95E002D62AF /* C4Tests.xctest */,
-				A77FF5FD1CD7C95E002D62AF /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,11 +153,11 @@
 				A77FF5BE1CD7C82C002D62AF /* Frameworks */,
 				A77FF5BF1CD7C82C002D62AF /* Resources */,
 				A77FF6021CD7C967002D62AF /* Embed Frameworks */,
+				A728E2761CF7A4EA00CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A77FF6011CD7C967002D62AF /* PBXTargetDependency */,
 			);
 			name = C4StopWatch;
 			productName = C4StopWatch;
@@ -274,12 +234,6 @@
 			mainGroup = A77FF5B81CD7C82C002D62AF;
 			productRefGroup = A77FF5C21CD7C82C002D62AF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A77FF5F31CD7C95D002D62AF /* Products */;
-					ProjectRef = A77FF5F21CD7C95D002D62AF /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A77FF5C01CD7C82C002D62AF /* C4StopWatch */,
@@ -288,30 +242,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A77FF5F91CD7C95E002D62AF /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A77FF5F81CD7C95E002D62AF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A77FF5FB1CD7C95E002D62AF /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A77FF5FA1CD7C95E002D62AF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A77FF5FD1CD7C95E002D62AF /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A77FF5FC1CD7C95E002D62AF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A77FF5BF1CD7C82C002D62AF /* Resources */ = {
@@ -339,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E2761CF7A4EA00CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A77FF5BD1CD7C82C002D62AF /* Sources */ = {
@@ -378,11 +325,6 @@
 			isa = PBXTargetDependency;
 			target = A77FF5C01CD7C82C002D62AF /* C4StopWatch */;
 			targetProxy = A77FF5E11CD7C82C002D62AF /* PBXContainerItemProxy */;
-		};
-		A77FF6011CD7C967002D62AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A77FF6001CD7C967002D62AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4StopWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4StopWatch;
@@ -508,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4StopWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4StopWatch;

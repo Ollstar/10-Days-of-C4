@@ -36,8 +36,8 @@ class ViewController: CanvasController {
     }
     
     override func viewWillDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
-        moviePlayer.stop()
+        super.viewWillDisappear(animated)
+            moviePlayer.stop()
     }
     
 }

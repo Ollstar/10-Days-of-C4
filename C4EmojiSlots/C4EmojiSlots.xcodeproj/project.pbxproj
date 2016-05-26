@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E2701CF7A16F00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E26F1CF7A16F00CBCC8B /* C4.framework */; };
 		A74603C11CEA78140067C52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603C01CEA78140067C52D /* AppDelegate.swift */; };
 		A74603C31CEA78140067C52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603C21CEA78140067C52D /* ViewController.swift */; };
 		A74603C61CEA78140067C52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74603C41CEA78140067C52D /* Main.storyboard */; };
@@ -14,8 +15,6 @@
 		A74603CB1CEA78140067C52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74603C91CEA78140067C52D /* LaunchScreen.storyboard */; };
 		A74603D61CEA78140067C52D /* C4EmojiSlotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603D51CEA78140067C52D /* C4EmojiSlotsTests.swift */; };
 		A74603E11CEA78140067C52D /* C4EmojiSlotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74603E01CEA78140067C52D /* C4EmojiSlotsUITests.swift */; };
-		A7B39D991CF3D224005F010B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D941CF3D21F005F010B /* C4.framework */; };
-		A7B39D9A1CF3D224005F010B /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7B39D941CF3D21F005F010B /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +32,6 @@
 			remoteGlobalIDString = A74603BC1CEA78140067C52D;
 			remoteInfo = C4EmojiSlots;
 		};
-		A7B39D931CF3D21F005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
-		A7B39D951CF3D21F005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
-			remoteInfo = C4Tests;
-		};
-		A7B39D971CF3D21F005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
-			remoteInfo = C4App;
-		};
-		A7B39D9B1CF3D224005F010B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
-			remoteInfo = C4;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A7B39D9A1CF3D224005F010B /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A728E26F1CF7A16F00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A74603BD1CEA78140067C52D /* C4EmojiSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4EmojiSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74603C01CEA78140067C52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74603C21CEA78140067C52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +62,6 @@
 		A74603DC1CEA78140067C52D /* C4EmojiSlotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C4EmojiSlotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74603E01CEA78140067C52D /* C4EmojiSlotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4EmojiSlotsUITests.swift; sourceTree = "<group>"; };
 		A74603E21CEA78140067C52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B39D991CF3D224005F010B /* C4.framework in Frameworks */,
+				A728E2701CF7A16F00CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +93,7 @@
 		A74603B41CEA78140067C52D = {
 			isa = PBXGroup;
 			children = (
-				A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */,
+				A728E26F1CF7A16F00CBCC8B /* C4.framework */,
 				A74603BF1CEA78140067C52D /* C4EmojiSlots */,
 				A74603D41CEA78140067C52D /* C4EmojiSlotsTests */,
 				A74603DF1CEA78140067C52D /* C4EmojiSlotsUITests */,
@@ -172,16 +142,6 @@
 			path = C4EmojiSlotsUITests;
 			sourceTree = "<group>";
 		};
-		A7B39D8E1CF3D21F005F010B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A7B39D941CF3D21F005F010B /* C4.framework */,
-				A7B39D961CF3D21F005F010B /* C4Tests.xctest */,
-				A7B39D981CF3D21F005F010B /* C4App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,11 +153,11 @@
 				A74603BA1CEA78140067C52D /* Frameworks */,
 				A74603BB1CEA78140067C52D /* Resources */,
 				A74603FE1CEA7C210067C52D /* Embed Frameworks */,
+				A728E26E1CF7A04300CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7B39D9C1CF3D224005F010B /* PBXTargetDependency */,
 			);
 			name = C4EmojiSlots;
 			productName = C4EmojiSlots;
@@ -274,12 +234,6 @@
 			mainGroup = A74603B41CEA78140067C52D;
 			productRefGroup = A74603BE1CEA78140067C52D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A7B39D8E1CF3D21F005F010B /* Products */;
-					ProjectRef = A7B39D8D1CF3D21F005F010B /* C4iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A74603BC1CEA78140067C52D /* C4EmojiSlots */,
@@ -288,30 +242,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A7B39D941CF3D21F005F010B /* C4.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = C4.framework;
-			remoteRef = A7B39D931CF3D21F005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A7B39D961CF3D21F005F010B /* C4Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = C4Tests.xctest;
-			remoteRef = A7B39D951CF3D21F005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A7B39D981CF3D21F005F010B /* C4App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = C4App.app;
-			remoteRef = A7B39D971CF3D21F005F010B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A74603BB1CEA78140067C52D /* Resources */ = {
@@ -339,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E26E1CF7A04300CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A74603B91CEA78140067C52D /* Sources */ = {
@@ -378,11 +325,6 @@
 			isa = PBXTargetDependency;
 			target = A74603BC1CEA78140067C52D /* C4EmojiSlots */;
 			targetProxy = A74603DD1CEA78140067C52D /* PBXContainerItemProxy */;
-		};
-		A7B39D9C1CF3D224005F010B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = C4;
-			targetProxy = A7B39D9B1CF3D224005F010B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4EmojiSlots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlots;
@@ -508,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4EmojiSlots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4EmojiSlots;
