@@ -67,7 +67,6 @@
 		A7BDD6FD1CF61A47008BC78A /* C4TextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4TextFieldUITests.swift; sourceTree = "<group>"; };
 		A7BDD6FF1CF61A47008BC78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDD70B1CF61AA9008BC78A /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
-		A7BDD7191CF61AE7008BC78A /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../C4iOS/C4iOS.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A7BDD72B1CF61B99008BC78A /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +98,6 @@
 		A7BDD6D11CF61A47008BC78A = {
 			isa = PBXGroup;
 			children = (
-				A7BDD7191CF61AE7008BC78A /* C4iOS.xcodeproj */,
 				A7BDD6DC1CF61A47008BC78A /* C4TextField */,
 				A7BDD6F11CF61A47008BC78A /* C4TextFieldTests */,
 				A7BDD6FC1CF61A47008BC78A /* C4TextFieldUITests */,
@@ -163,6 +161,7 @@
 				A7BDD6D71CF61A47008BC78A /* Frameworks */,
 				A7BDD6D81CF61A47008BC78A /* Resources */,
 				A7BDD7311CF61CE0008BC78A /* Embed Frameworks */,
+				A728E28C1CF7B58600CBCC8B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -278,6 +277,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A728E28C1CF7B58600CBCC8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/C4.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7BDD6D61CF61A47008BC78A /* Sources */ = {
