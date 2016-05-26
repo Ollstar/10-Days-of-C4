@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E28E1CF7C0DE00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E28D1CF7C0DE00CBCC8B /* C4.framework */; };
 		A79F7FF41CF6422F00B7B203 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FF31CF6422F00B7B203 /* MadokaTextField.swift */; };
 		A79F7FFD1CF6692C00B7B203 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FFC1CF6692C00B7B203 /* HoshiTextField.swift */; };
 		A7BDD6DE1CF61A47008BC78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDD6DD1CF61A47008BC78A /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A728E28D1CF7C0DE00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
 		A79F7FF31CF6422F00B7B203 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
 		A79F7FFC1CF6692C00B7B203 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		A7BDD6DA1CF61A47008BC78A /* C4TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A728E28E1CF7C0DE00CBCC8B /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +101,7 @@
 		A7BDD6D11CF61A47008BC78A = {
 			isa = PBXGroup;
 			children = (
+				A728E28D1CF7C0DE00CBCC8B /* C4.framework */,
 				A7BDD6DC1CF61A47008BC78A /* C4TextField */,
 				A7BDD6F11CF61A47008BC78A /* C4TextFieldTests */,
 				A7BDD6FC1CF61A47008BC78A /* C4TextFieldUITests */,
@@ -450,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4TextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4TextField;
@@ -462,6 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = C4TextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.oandrews.C4TextField;
