@@ -84,18 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-MosaicLayout/AFNetworking.framework"
   install_framework "Pods-MosaicLayout/C4.framework"
-  install_framework "Pods-MosaicLayout/FLKAutoLayout.framework"
   install_framework "Pods-MosaicLayout/FMMosaicLayout.framework"
-  install_framework "Pods-MosaicLayout/ORStackView.framework"
-  install_framework "Pods-MosaicLayout/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-MosaicLayout/AFNetworking.framework"
   install_framework "Pods-MosaicLayout/C4.framework"
-  install_framework "Pods-MosaicLayout/FLKAutoLayout.framework"
   install_framework "Pods-MosaicLayout/FMMosaicLayout.framework"
-  install_framework "Pods-MosaicLayout/ORStackView.framework"
-  install_framework "Pods-MosaicLayout/SwiftyJSON.framework"
 fi
