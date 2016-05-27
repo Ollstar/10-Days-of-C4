@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A728E28E1CF7C0DE00CBCC8B /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728E28D1CF7C0DE00CBCC8B /* C4.framework */; };
+		A728E2911CF8AC5000CBCC8B /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E2901CF8AC5000CBCC8B /* IsaoTextField.swift */; };
+		A728E2931CF8AC8000CBCC8B /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E2921CF8AC8000CBCC8B /* JiroTextField.swift */; };
+		A728E2951CF8AC8E00CBCC8B /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E2941CF8AC8E00CBCC8B /* KaedeTextField.swift */; };
+		A728E2971CF8ACA000CBCC8B /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E2961CF8ACA000CBCC8B /* MinoruTextField.swift */; };
+		A728E2991CF8ACAF00CBCC8B /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E2981CF8ACAF00CBCC8B /* YokoTextField.swift */; };
+		A728E29B1CF8ACBC00CBCC8B /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728E29A1CF8ACBC00CBCC8B /* YoshikoTextField.swift */; };
 		A79F7FF41CF6422F00B7B203 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FF31CF6422F00B7B203 /* MadokaTextField.swift */; };
 		A79F7FFD1CF6692C00B7B203 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F7FFC1CF6692C00B7B203 /* HoshiTextField.swift */; };
 		A7BDD6DE1CF61A47008BC78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDD6DD1CF61A47008BC78A /* AppDelegate.swift */; };
@@ -53,6 +59,12 @@
 
 /* Begin PBXFileReference section */
 		A728E28D1CF7C0DE00CBCC8B /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = Carthage/Build/iOS/C4.framework; sourceTree = "<group>"; };
+		A728E2901CF8AC5000CBCC8B /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		A728E2921CF8AC8000CBCC8B /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		A728E2941CF8AC8E00CBCC8B /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		A728E2961CF8ACA000CBCC8B /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		A728E2981CF8ACAF00CBCC8B /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		A728E29A1CF8ACBC00CBCC8B /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
 		A79F7FF31CF6422F00B7B203 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
 		A79F7FFC1CF6692C00B7B203 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		A7BDD6DA1CF61A47008BC78A /* C4TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +140,12 @@
 				A7BDD72B1CF61B99008BC78A /* AkiraTextField.swift */,
 				A79F7FF31CF6422F00B7B203 /* MadokaTextField.swift */,
 				A79F7FFC1CF6692C00B7B203 /* HoshiTextField.swift */,
+				A728E2901CF8AC5000CBCC8B /* IsaoTextField.swift */,
+				A728E2921CF8AC8000CBCC8B /* JiroTextField.swift */,
+				A728E2941CF8AC8E00CBCC8B /* KaedeTextField.swift */,
+				A728E2961CF8ACA000CBCC8B /* MinoruTextField.swift */,
+				A728E2981CF8ACAF00CBCC8B /* YokoTextField.swift */,
+				A728E29A1CF8ACBC00CBCC8B /* YoshikoTextField.swift */,
 				A7BDD6E11CF61A47008BC78A /* Main.storyboard */,
 				A7BDD6E41CF61A47008BC78A /* Assets.xcassets */,
 				A7BDD6E61CF61A47008BC78A /* LaunchScreen.storyboard */,
@@ -307,7 +325,13 @@
 				A7BDD72C1CF61B99008BC78A /* AkiraTextField.swift in Sources */,
 				A79F7FF41CF6422F00B7B203 /* MadokaTextField.swift in Sources */,
 				A7BDD6E01CF61A47008BC78A /* ViewController.swift in Sources */,
+				A728E2931CF8AC8000CBCC8B /* JiroTextField.swift in Sources */,
+				A728E29B1CF8ACBC00CBCC8B /* YoshikoTextField.swift in Sources */,
 				A79F7FFD1CF6692C00B7B203 /* HoshiTextField.swift in Sources */,
+				A728E2911CF8AC5000CBCC8B /* IsaoTextField.swift in Sources */,
+				A728E2991CF8ACAF00CBCC8B /* YokoTextField.swift in Sources */,
+				A728E2951CF8AC8E00CBCC8B /* KaedeTextField.swift in Sources */,
+				A728E2971CF8ACA000CBCC8B /* MinoruTextField.swift in Sources */,
 				A7BDD6DE1CF61A47008BC78A /* AppDelegate.swift in Sources */,
 				A7BDD70C1CF61AA9008BC78A /* TextFieldEffects.swift in Sources */,
 			);
